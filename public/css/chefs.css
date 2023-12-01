@@ -1,0 +1,126 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+                            /*chefs*/
+.chefs-sec{
+    width: 100%;
+    background-color: rgb(238,238,238);
+    /* height: 150vh; */
+}
+.chefs-contaner{
+    width: 85%;
+    margin: auto;
+}
+.chefs-head{
+    text-align: center;
+}
+.chefs-head p{
+    font-size: 20px;
+    margin-top: 30px;
+    padding: 50px 10px 40px 10px;
+    color: rgb(127,127,144);
+}
+.chefs-head h1{
+    font-size: 30px;
+    color: rgb(93,37,41);
+}
+.chefs-head h1 span{
+    color: rgb(207,39,18);
+}
+                                /*chefs row*/
+/* .chefs-row{
+    display: flex;
+    position:  absolute;
+}                 */
+.chefs-col1{
+    /* width:45%; */
+    padding: 20px;
+    text-align: center;
+}    
+.chefs-col1-color{
+    background-color: rgb(248, 247, 244);
+}
+.chefs-col1 img{
+    width: 100%;
+   border-radius: 5px;
+}            
+.chefs-col1 h1{
+    color: rgb(55,55,63);
+    font-size: 25px;
+    margin-top: 20px;
+    
+}
+.chefs-col1 h3{
+    color:rgb(169,172,205);
+    font-size: 15px;
+    margin-top: 10px;
+}
+.chefs-col1 p{
+    font-size: 20px;
+    color: rgb(134,126,183);
+    margin-top: 20px;
+}
+.chefs-sec .chefs-col1-icons{
+    background-color: rgb(210, 213, 216);
+    width:40px;
+    height: 9rem;
+    text-align: center;
+    /* position: relative;
+    top: 5rem;
+    left: 28rem; */
+}
+.chefs-col1-icons i{
+    font-size: 25px;
+    margin-bottom: 10px;
+    color: rgb(145, 145, 145);
+    
+}
+.chefs-sec .chefs-col2-icons{
+    background-color: rgb(210, 213, 216);
+    width:40px;
+    height: 9rem;
+    text-align: center;
+    /* position: relative;
+    bottom: 4rem;
+    left: 54rem; */
+    
+}
+.chefs-col2-icons i{
+    font-size: 25px;
+    margin-bottom: 10px;
+    color: rgb(145, 145, 145);
+    
+}
+.chefs-sec .chefs-col3-icons{
+    background-color: rgb(210, 213, 216);
+    width:40px;
+    height: 9rem;
+    text-align: center;
+    /* position: relative;
+    bottom: 13rem; 
+    left: 80rem; */
+}
+.chefs-col3-icons i{
+    font-size: 25px;
+    margin-bottom: 10px;
+    color: rgb(145, 145, 145);
+   
+}
+.chefs-sec .chefs-col1-icons{
+    display: none;
+}
+.chefs-sec .chefs-col2-icons{
+    display: none;
+}
+.chefs-sec .chefs-col3-icons{
+    display: none;
+}
+/* .chefs-sec .chefs-contaner .chefs-row #chefss-col3:hover .chefs-sec .chefs-col3-icons{
+    display: block;
+} */
+.chefs-col1:hover{
+    padding: 0px;
+    
+}

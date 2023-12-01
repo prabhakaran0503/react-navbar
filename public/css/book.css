@@ -1,0 +1,82 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+                                    /*book a table*/
+.book-a-table-sec{
+    
+    width: 100%;
+    /* height: 100vh; */
+}              
+.book-a-table-contaner{
+    width: 85%;
+    margin: auto;
+}  
+.book-a-table-head{
+    text-align: center;
+    margin-top: 40px;
+}
+.book-a-table-head h3{
+    margin-bottom: 20px;
+    color: rgb(127,127,144);
+    /* font-size: 15px; */
+}
+.book-a-table-head h1{
+    margin-bottom: 20px;
+    color: rgb(33,37,41);
+}
+.book-a-table-head h1 span{
+    color: rgb(222,104,18);
+}
+                                    /*table content*/
+.book-table-row{
+    margin-top: 70px;
+    /* display: flex; */
+    justify-content: space-between;
+    background-color: rgb(247,247,247);
+}
+.book-col1{
+    width: 40%;
+}
+.book-col1-img img{
+    width: 100%;
+    height: 70vh;
+}
+.book-col2{
+    width: 100%;
+    padding: 40px;
+}
+
+
+.book-input1 input{
+    /* margin: 10px; */
+    height: 40px;
+    padding: 5px;
+    font-size: 16px;
+}
+.book-input2 input{
+    /* margin: 10px; */
+    height: 40px;
+    padding: 5px;
+    font-size: 16px;
+}
+.book-input3 textarea{
+    width: 100%;
+    /* margin: 10px; */
+    height: 8rem;
+   padding: 8px;
+    font-size: 18px;
+}
+.book-btn{
+    margin-top: 40px;
+    margin-left: 15rem;
+}
+.book-btn button{
+    padding: 15px 40px;
+    border-radius: 20px;
+    border: none;
+    background-color: red;
+    font-size: 15px;
+    color: white;
+}

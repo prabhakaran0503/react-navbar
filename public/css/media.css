@@ -1,0 +1,397 @@
+
+                        /*mobile*/
+ @media(min-width:320px){
+                            /*home*/
+        .home-col1{
+            width: 100%;
+           
+        }
+        .home-img img{
+            height: 80%;
+            width: 80%;
+        }  
+        .home-col1  p{
+            width: 80%;
+            font-size: 15px;
+        }
+        .home-col1  h1{
+            width: 80%;
+            font-size: 25px;
+        }
+        .home-col1{
+            padding-top: 5rem;
+        }
+        .home-content-btns button{
+            margin-right: 8px;
+            padding: 10px 20px;
+            font-size: 10px;
+            border-radius: 30px;
+            border: none;
+            background-color:rgb(206,18,18);
+            color: white;
+        }
+        .home-content-icon{
+            display: flex;
+            padding-top: 10px;
+        }
+        .about-col1{
+            width: 100%;
+        }
+        .about-img img{
+            width: 100%;
+           height: 80vh;
+        }
+        .about-conyent{
+            position: absolute;
+            right: 2rem;
+            bottom: 5rem;
+        }
+        .about-col2{
+            width: 100%;
+        }
+        .about-col2-img img{
+            width: 80%;
+            
+            
+        }
+        .about-play{
+            position: relative;
+            left: 5rem;
+            top: 4rem;
+        }
+        .about-row-contaner{
+            margin-top: 8rem;
+        }
+        .about-row2{
+           width: 100%;
+        }
+        .about-col-card{
+            width: 100%;
+        }
+        .about-card{
+            width: 100%;
+        }
+        .about-card-icon{
+            margin:20px 0px 0px 7rem;
+        }
+                                        /*menu*/
+        .menu-head h1{
+            font-size: 28px;
+        }
+        .menu-head-a a{
+            font-size: 20px;
+            margin-left:  5px;
+            
+        }
+        .menu-head-a{
+            margin-top: 30px;
+            /* display: flex; */
+        }
+        .menu-head-a a::before{
+            position: absolute;
+            top: 35px;
+            right: 10px;
+            width: 50px;
+            height: 0px;
+            content: "";
+            border: 1px solid  rgb(182,182,191);
+        }
+        .menu-col1{
+            width:100%;
+        }
+                                          /*chefs*/
+         .chefs-sec{
+           width: 100%;
+           background-color: rgb(238,238,238);
+           height:310vh;
+        }  
+        .chefs-row{
+            
+            position:  absolute;
+        } 
+        .chefs-col1{
+            width:100%;
+            margin-top: 30px;
+        }
+        .chefs-col1-icons{
+            position: relative;
+            top: 4rem;
+            left: 20rem;
+        }
+        .chefs-col2-icons{
+           
+            text-align: center;
+            position: relative;
+            top: 30rem;
+            left: 20rem;
+        }
+        .chefs-col3-icons{
+            text-align: center;
+            position: relative;
+            top: 58rem; 
+            left: 20rem;
+            /* display: none; */
+        }
+                                        /*book a table*/
+    
+        /* .book-table-row{
+            display: flex;
+            flex-wrap: wrap;
+        } */
+        .book-col1{
+            width: 100%;
+        }
+    
+         .book-a-table-head h3{ 
+            font-size: 15px;
+         }              
+         .book-a-table-head h1{
+            font-size: 28px;
+         } 
+         .book-input1 input{
+            width: 100%;
+            margin-bottom: 10px;
+         }              
+         .book-input2 input{
+            width: 100%;
+            margin-bottom: 10px;
+         }   
+         .book-input3 textarea{
+            width: 100%;
+            
+        }
+        .book-btn{
+            margin-top: 40px;
+            margin-left: 3rem;
+        }
+        .book-input1{
+            display: flex;
+            flex-wrap: wrap;
+            /* justify-content: space-between; */
+        }
+        .book-input2{
+            display: flex;
+            flex-wrap: wrap;
+            /* justify-content: space-between; */
+            /* margin-top: 10px; */
+            margin-bottom: 10px;
+        }
+    
+                                        /*footer-sec*/
+        .footer-row{
+            display: flex;
+            flex-wrap: wrap;
+        }  
+        .footer-col2{
+            margin-top: 40px;
+        }   
+        .footer-col1{
+            margin-top: 40px;
+        }
+        .footer-col3{
+            margin-top: 40px;
+        }           
+        .footer-col4{
+            margin-top: 40px;
+        }                           
+    
+    }
+    
+    
+    
+                            /*ipad*/
+    @media(min-width:640px){
+                            /*home*/
+        .home-col1{
+            width: 100%;
+        }
+        
+    
+    }
+    
+    
+    
+    
+    
+                            /*laptop*/
+    @media(min-width:960px){
+    
+                        /*home*/
+        .home-row{
+            display: flex;
+        }     
+        .home-img{
+            padding-top: 10rem;
+        }    
+        .home-img img{
+            height: 90%;
+            width: 90%;
+        }      
+        .home-col1{
+            /* width: 50%; */
+            /* text-align: center; */
+            padding-top: 15rem;
+        }
+        .home-col1  p{
+            font-size: 35px;
+        }
+        .home-col1  h1{
+            font-size: 60px;
+        }
+        .home-content-btns button{
+            margin-right: 20px;
+            padding: 15px 40px;
+            font-size: 15px;
+            border-radius: 30px;
+            border: none;
+            background-color:rgb(206,18,18);
+            color: white;
+        }
+        .home-content-icon{
+            display: flex;
+            padding-top: 11px;
+        }
+        .about-row{
+            display: flex;
+        }
+        .about-col1{
+            width: 60%;
+        }      
+        .about-img img{
+            width: 100%;
+           height: 116vh;
+        }
+        .about-conyent{
+            position: absolute;
+            right: 5rem;
+            bottom: 7rem;
+        }
+        .about-col2{
+            width: 50%;
+        }
+        .about-col2-img img{
+            width: 120%;
+            height: 38vh;
+            
+        }
+        .about-play{
+            position: relative;
+            left: 10rem;
+            top: 6rem;
+        }
+        .about-row-contaner{
+            margin-top: 5rem;
+        }
+        .about-row2{
+            display: flex; 
+            width: 85%;
+        }
+        .about-col-card{
+            width: 33%;
+        }
+        .about-card{
+            width: 20%;
+        }
+        .about-card-icon{
+            margin:20px 0px 0px 55px;
+        }
+                                        /*menu*/
+    
+        .menu-head h1{
+            font-size: 30px;
+        }
+        .menu-head-a a{
+            font-size: 25px;
+            margin: 20px;
+        }
+        .menu-head-a{
+            padding: 30px ;
+        }         
+        .menu-head-a a::before{
+            position: absolute;
+            top: 35px;
+            left: 0px;
+            width: 70px;
+            height: 0px;
+            content: "";
+            border: 1px solid  rgb(182,182,191);
+        }                   
+        .menu-col1{
+            width:30%;
+        }
+    
+    
+                                         /*chefs*/
+      .chefs-sec{
+          width: 100%;
+          background-color: rgb(238,238,238);
+          height: 130vh;
+        }      
+        .chefs-row{
+            display: flex;
+            position:  absolute;
+        }
+        .chefs-col1{
+            width:45%;
+        } 
+        .chefs-col1-icons{
+            position: relative;
+            top: 5rem;
+            left: 28rem;
+        }
+        .chefs-col2-icons{
+           
+            position: relative;
+            top: -4rem;
+            left: 54rem;
+        }
+        .chefs-col3-icons{
+            position: relative;
+            top: -13rem; 
+            left: 80rem;
+            /* display: none; */
+        }
+    
+                                                    /*book a table*/
+         .book-a-table-head h3{ 
+            font-size: 15px;
+         } 
+         .book-table-row{
+          display: flex;  
+         }
+         .book-col1{
+            width: 40%;
+        }
+         .book-input1 input{
+            width: 30%;
+         } 
+         .book-input2 input{
+            width: 30%;
+         }
+         .book-input3 textarea{
+            width: 96%;
+        }     
+        .book-btn{
+            margin-top: 40px;
+            margin-left: 15rem;
+        }   
+        .book-input1{
+            display: flex;
+            justify-content: space-between;
+        }
+        .book-input2{
+            display: flex;
+            justify-content: space-between;
+            margin-top: 10px;
+            margin-bottom: 10px;
+        }     
+        
+                            /*footer-sec*/
+        .footer-row{
+            display: flex;
+            justify-content: space-between;
+        }
+        .col3-content{
+            margin-top: 0px;
+        }                    
+    }

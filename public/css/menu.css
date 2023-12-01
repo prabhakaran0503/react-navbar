@@ -1,0 +1,82 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+                                /*menu*/
+.menu-sec{
+    width: 100%;
+}                                
+.menu-contaner{
+    width: 85%;
+    margin: auto;
+    text-align: center;
+}
+.about-head{
+    text-align: center;
+}         
+.menu-head p{
+    color: rgb(168,127,144);
+    font-size: 15px;
+    padding-top: 5rem;
+} 
+ .menu-head h1{
+    /* font-size: 30px; */
+    color: rgb(40,47,48);
+    padding-top: 10px;
+}
+.menu-head h1 span{
+    color: rgb(214,18,18);
+}
+/* .menu-head-a{
+    padding: 30px ;
+    display: flex;
+} */
+.menu-head-a a{
+    /* margin: 20px; */
+    /* font-size: 25px; */
+    text-decoration: none;
+    color: rgb(55,55,119);
+    position: relative;
+}
+/* .menu-head-a a::before{
+    position: absolute;
+    top: 35px;
+    left: 0px;
+    width: 70px;
+    height: 0px;
+    content: "";
+    border: 1px solid  rgb(182,182,191);
+} */
+.menu-head-a  :hover{
+    color: rgb(206,18,18);
+}
+.menu-row{
+    display: flex;
+    flex-wrap: wrap;
+}
+.menu-col1{
+    /* width:30%; */
+    margin: 20px auto;
+}
+.menu-card{
+    padding: 10px;
+}
+.menu-card img{
+    width: 80%;
+}
+.menu-card-content h2{
+    font-size: 25px;
+    margin-top: 10px;
+    color: rgb(55,55,63);
+}
+.menu-card-content p{
+    margin-top: 10px;
+    font-size: 18px;
+    color: rgb(141,141,168);
+}
+.menu-card-content h1{
+    margin-top: 10px;
+    font-size: 30px;
+    color: rgb(197, 11, 11);
+}
